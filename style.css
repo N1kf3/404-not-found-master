@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Inconsolata ;
+    src: url(fonts/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+@font-face {
+    font-family: SMono ;
+    src: url(fonts/SpaceMono-Regular.ttf);
+}
+
+.pagina_princial{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo{
+    font-weight: 700;
+    size: 24px;
+    margin-top: 40px;
+    margin-left: 77px;
+    width: 133px;
+    height: 25px;
+    font-family: 'Inconsolata';
+    text-align: center;
+    line-height:25px;
+}
+
+.parte_central{
+    width: 80%;
+    margin-top: 200px ;
+    margin-left: 77px;
+    margin-right: 119px;
+    display: flex;
+    flex-direction: row;
+}
+
+.imagen{
+    
+    width: 70%;
+    height: 30%;
+}
+
+.texto_info{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 118.78px;
+}
+
+.parrafo_prin{
+    font-weight: 700;
+    font-size: 63px;
+    width: 586px;
+    height: 190px;
+    margin-top: 0;
+    font-family: SMono;    
+}
+
+.parrafo_secun{
+    font-family: SMono;    
+    font-weight: 400;
+    font-size: 23px;
+    width: 381px;
+    margin-top: 36px;
+    margin-bottom: 0;
+}
+
+.back_home{
+    width: 216px;
+    height: 68px;
+    margin-top: 64px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0;
+    background-color: grey;
+    color: white;
+    border: 0;
+}
+
+.info_pag{
+    color: rgba(189, 189, 189, 1);
+    font-weight: 500;
+    font-size: 14px;
+    width: 287px;
+    height: 17px;   
+    margin-left: 45%;
+    margin-top: 308px;
+    margin-bottom: 24px;    
+}
+
+.username{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 620px) {
+
+    .titulo{
+        margin-left: 15%;
+        margin-bottom: 15%;
+    }
+    .parte_central{
+        flex-direction: column;
+        width: 100%;
+        margin-top:64px;
+    }
+    .imagen{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        margin-bottom: 60px;
+    }
+    .texto_info{
+        width: 100%;
+        margin: 0;
+    }
+    .info_pag{
+        margin: auto;
+        margin-top: 114px;
+    }
+    .parrafo_prin{
+        font-size: 48px;
+        width: 355px;
+        margin: 0;
+    }
+    .parrafo_secun{
+        margin: 0;
+    }
+    .info_pag{
+        margin-left: 40%;
+    }
+
+    
+}
